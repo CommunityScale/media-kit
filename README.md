@@ -1,6 +1,6 @@
 # Media Kit
 
-Assets in PNG and SVG format for [CommunityScale](https://communityscale.com/).
+Assets in PNG and SVG format for [CommunityScale](https://communityscale.com/). Some of the images are below for easy linking, more options are in the folders.
 
 ## Black Wordmark
 <img src="png/communityscale-wordmark-black.png" alt="CommunityScale Wordmark Black" height="200">
