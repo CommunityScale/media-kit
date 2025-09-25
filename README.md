@@ -6,61 +6,81 @@ Assets in PNG and SVG format for [CommunityScale](https://communityscale.com/).
 
 ### Symbols
 
-#### Black Symbol
-![CommunityScale Symbol Black](png/communityscale-symbol-black.png)
-Raw URL: `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-symbol-black.png`
-
 #### White Symbol
-![CommunityScale Symbol White](png/communityscale-symbol-white.png)
-Raw URL: `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-symbol-white.png`
+<img src="png/communityscale-symbol-white.png" alt="CommunityScale Symbol White" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-symbol-white.png`
+**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-symbol-white.svg`
+
+#### Black Symbol
+<img src="png/communityscale-symbol-black.png" alt="CommunityScale Symbol Black" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-symbol-black.png`
+**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-symbol-black.svg`
 
 ### Wordmarks
 
-#### Black Wordmark
-![CommunityScale Wordmark Black](png/communityscale-wordmark-black.png)
-Raw URL: `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-wordmark-black.png`
-
 #### White Wordmark
-![CommunityScale Wordmark White](png/communityscale-wordmark-white.png)
-Raw URL: `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-wordmark-white.png`
+<img src="png/communityscale-wordmark-white.png" alt="CommunityScale Wordmark White" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-wordmark-white.png`
+**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-wordmark-white.svg`
+
+#### Black Wordmark
+<img src="png/communityscale-wordmark-black.png" alt="CommunityScale Wordmark Black" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-wordmark-black.png`
+**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-wordmark-black.svg`
 
 ### Logo Variations
 
-#### Square Logo - Black on White
-![CommunityScale Logo Square Black on White](png/communityscale-logo-square-black-on-white.png)
-Raw URL: `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-square-black-on-white.png`
+#### Rounded Logo - White on Black
+<img src="png/communityscale-logo-rounded-white-on-black.png" alt="CommunityScale Logo Rounded White on Black" height="200">
 
-#### Square Logo - White on Black
-![CommunityScale Logo Square White on Black](png/communityscale-logo-square-white-on-black.png)
-Raw URL: `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-square-white-on-black.png`
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-white-on-black.png`
+**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-white-on-black.svg`
 
 #### Rounded Logo - Black on White
-![CommunityScale Logo Rounded Black on White](png/communityscale-logo-rounded-black-on-white.png)
-Raw URL: `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-black-on-white.png`
+<img src="png/communityscale-logo-rounded-black-on-white.png" alt="CommunityScale Logo Rounded Black on White" height="200">
 
-#### Rounded Logo - White on Black
-![CommunityScale Logo Rounded White on Black](png/communityscale-logo-rounded-white-on-black.png)
-Raw URL: `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-white-on-black.png`
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-black-on-white.png`
+**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-black-on-white.svg`
+
+#### Square Logo - White on Black
+<img src="png/communityscale-logo-square-white-on-black.png" alt="CommunityScale Logo Square White on Black" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-square-white-on-black.png`
+**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-square-white-on-black.svg`
+
+#### Square Logo - Black on White
+<img src="png/communityscale-logo-square-black-on-white.png" alt="CommunityScale Logo Square Black on White" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-square-black-on-white.png`
+**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-square-black-on-white.svg`
 
 ### Social Cards
 
 #### Social Card - White Background
-![CommunityScale Social Card White Background](png/communityscale-social-card-white-bg.png)
-Raw URL: `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-social-card-white-bg.png`
+<img src="png/communityscale-social-card-white-bg.png" alt="CommunityScale Social Card White Background" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-social-card-white-bg.png`
 
 #### Social Card - Black Background
-![CommunityScale Social Card Black Background](png/communityscale-social-card-black-bg.png)
-Raw URL: `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-social-card-black-bg.png`
+<img src="png/communityscale-social-card-black-bg.png" alt="CommunityScale Social Card Black Background" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-social-card-black-bg.png`
 
 ## Favicons
 
 ### 512px Favicon
-![CommunityScale Favicon 512px](favicon/communityscale-favicon-512.png)
-Raw URL: `https://raw.githubusercontent.com/CommunityScale/media-kit/main/favicon/communityscale-favicon-512.png`
+<img src="favicon/communityscale-favicon-512.png" alt="CommunityScale Favicon 512px" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/favicon/communityscale-favicon-512.png`
 
 ### 192px Favicon
-![CommunityScale Favicon 192px](favicon/communityscale-favicon-192.png)
-Raw URL: `https://raw.githubusercontent.com/CommunityScale/media-kit/main/favicon/communityscale-favicon-192.png`
+<img src="favicon/communityscale-favicon-192.png" alt="CommunityScale Favicon 192px" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/favicon/communityscale-favicon-192.png`
 
 ## SVG Assets
 
