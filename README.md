@@ -6,31 +6,31 @@ Assets in PNG and SVG format for [CommunityScale](https://communityscale.com/).
 
 ### Symbols
 
-#### White Symbol
-<img src="png/communityscale-symbol-white.png" alt="CommunityScale Symbol White" height="200">
-
-**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-symbol-white.png`
-**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-symbol-white.svg`
-
 #### Black Symbol
 <img src="png/communityscale-symbol-black.png" alt="CommunityScale Symbol Black" height="200">
 
 **PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-symbol-black.png`
 **SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-symbol-black.svg`
 
+#### White Symbol
+<img src="png/communityscale-symbol-white.png" alt="CommunityScale Symbol White" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-symbol-white.png`
+**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-symbol-white.svg`
+
 ### Wordmarks
-
-#### White Wordmark
-<img src="png/communityscale-wordmark-white.png" alt="CommunityScale Wordmark White" height="200">
-
-**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-wordmark-white.png`
-**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-wordmark-white.svg`
 
 #### Black Wordmark
 <img src="png/communityscale-wordmark-black.png" alt="CommunityScale Wordmark Black" height="200">
 
 **PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-wordmark-black.png`
 **SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-wordmark-black.svg`
+
+#### White Wordmark
+<img src="png/communityscale-wordmark-white.png" alt="CommunityScale Wordmark White" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-wordmark-white.png`
+**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-wordmark-white.svg`
 
 ### Logo Variations
 
@@ -40,17 +40,17 @@ Assets in PNG and SVG format for [CommunityScale](https://communityscale.com/).
 **PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-white-on-black.png`
 **SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-white-on-black.svg`
 
-#### Rounded Logo - Black on White
-<img src="png/communityscale-logo-rounded-black-on-white.png" alt="CommunityScale Logo Rounded Black on White" height="200">
-
-**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-black-on-white.png`
-**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-black-on-white.svg`
-
 #### Square Logo - White on Black
 <img src="png/communityscale-logo-square-white-on-black.png" alt="CommunityScale Logo Square White on Black" height="200">
 
 **PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-square-white-on-black.png`
 **SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-square-white-on-black.svg`
+
+#### Rounded Logo - Black on White
+<img src="png/communityscale-logo-rounded-black-on-white.png" alt="CommunityScale Logo Rounded Black on White" height="200">
+
+**PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-black-on-white.png`
+**SVG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-black-on-white.svg`
 
 #### Square Logo - Black on White
 <img src="png/communityscale-logo-square-black-on-white.png" alt="CommunityScale Logo Square Black on White" height="200">
