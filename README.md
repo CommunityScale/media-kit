@@ -33,13 +33,13 @@ Assets in PNG and SVG format for [CommunityScale](https://communityscale.com/). 
 
 **PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-social-card-black-bg.png`
 
-    ## Raw Asset Links
+## Raw Asset Links
 
-    ### Favicons
+### Favicons
     - [communityscale-favicon-192.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/favicon/communityscale-favicon-192.png)
     - [communityscale-favicon-512.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/favicon/communityscale-favicon-512.png)
 
-    ### SVG Images
+### SVG Images
     - [communityscale-logo-rounded-black-on-white.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-black-on-white.svg)
     - [communityscale-logo-rounded-white-in-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-white-in-black.svg)
     - [communityscale-logo-rounded-white-on-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-white-on-black.svg)
@@ -50,7 +50,7 @@ Assets in PNG and SVG format for [CommunityScale](https://communityscale.com/). 
     - [communityscale-wordmark-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-wordmark-black.svg)
     - [communityscale-wordmark-white.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-wordmark-white.svg)
 
-    ### PNG Images
+### PNG Images
     - [communityscale-logo-rounded-black-on-white.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-black-on-white.png)
     - [communityscale-logo-rounded-white-on-black.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-white-on-black.png)
     - [communityscale-logo-square-black-on-white.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-square-black-on-white.png)
