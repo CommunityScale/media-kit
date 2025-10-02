@@ -36,30 +36,30 @@ Assets in PNG and SVG format for [CommunityScale](https://communityscale.com/). 
 ## Raw Asset Links
 
 ### Favicons
-    - [communityscale-favicon-192.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/favicon/communityscale-favicon-192.png)
-    - [communityscale-favicon-512.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/favicon/communityscale-favicon-512.png)
+- [communityscale-favicon-192.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/favicon/communityscale-favicon-192.png)
+- [communityscale-favicon-512.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/favicon/communityscale-favicon-512.png)
 
 ### SVG Images
-    - [communityscale-logo-rounded-black-on-white.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-black-on-white.svg)
-    - [communityscale-logo-rounded-white-in-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-white-in-black.svg)
-    - [communityscale-logo-rounded-white-on-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-white-on-black.svg)
-    - [communityscale-logo-square-black-on-white.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-square-black-on-white.svg)
-    - [communityscale-logo-square-white-on-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-square-white-on-black.svg)
-    - [communityscale-symbol-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-symbol-black.svg)
-    - [communityscale-symbol-white.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-symbol-white.svg)
-    - [communityscale-wordmark-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-wordmark-black.svg)
-    - [communityscale-wordmark-white.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-wordmark-white.svg)
+- [communityscale-logo-rounded-black-on-white.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-black-on-white.svg)
+- [communityscale-logo-rounded-white-in-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-white-in-black.svg)
+- [communityscale-logo-rounded-white-on-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-rounded-white-on-black.svg)
+- [communityscale-logo-square-black-on-white.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-square-black-on-white.svg)
+- [communityscale-logo-square-white-on-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-logo-square-white-on-black.svg)
+- [communityscale-symbol-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-symbol-black.svg)
+- [communityscale-symbol-white.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-symbol-white.svg)
+- [communityscale-wordmark-black.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-wordmark-black.svg)
+- [communityscale-wordmark-white.svg](https://raw.githubusercontent.com/CommunityScale/media-kit/main/svg/communityscale-wordmark-white.svg)
 
 ### PNG Images
-    - [communityscale-logo-rounded-black-on-white.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-black-on-white.png)
-    - [communityscale-logo-rounded-white-on-black.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-white-on-black.png)
-    - [communityscale-logo-square-black-on-white.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-square-black-on-white.png)
-    - [communityscale-logo-square-white-on-black.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-square-white-on-black.png)
-    - [communityscale-social-card-black-bg.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-social-card-black-bg.png)
-    - [communityscale-social-card-white-bg.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-social-card-white-bg.png)
-    - [communityscale-symbol-black.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-symbol-black.png)
-    - [communityscale-symbol-white.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-symbol-white.png)
-    - [communityscale-wordmark-black.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-wordmark-black.png)
-    - [communityscale-wordmark-white.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-wordmark-white.png)
+- [communityscale-logo-rounded-black-on-white.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-black-on-white.png)
+- [communityscale-logo-rounded-white-on-black.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-rounded-white-on-black.png)
+- [communityscale-logo-square-black-on-white.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-square-black-on-white.png)
+- [communityscale-logo-square-white-on-black.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-logo-square-white-on-black.png)
+- [communityscale-social-card-black-bg.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-social-card-black-bg.png)
+- [communityscale-social-card-white-bg.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-social-card-white-bg.png)
+- [communityscale-symbol-black.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-symbol-black.png)
+- [communityscale-symbol-white.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-symbol-white.png)
+- [communityscale-wordmark-black.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-wordmark-black.png)
+- [communityscale-wordmark-white.png](https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-wordmark-white.png)
 
 
