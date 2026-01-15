@@ -33,6 +33,36 @@ Assets in PNG and SVG format for [CommunityScale](https://communityscale.com/). 
 
 **PNG:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/png/communityscale-social-card-black-bg.png`
 
+## Brand Colors
+
+Brand colors are available as a JavaScript module with both light and dark theme variants, in hex and RGB formats.
+
+**JS:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/colors/communityscale-brand-colors.js`
+
+```js
+import communityscaleColors from './colors/communityscale-brand-colors.js';
+
+// Access colors by theme
+communityscaleColors.light       // hex values for light theme
+communityscaleColors.dark        // hex values for dark theme
+communityscaleColors.lightRgb    // rgb values for light theme
+communityscaleColors.darkRgb     // rgb values for dark theme
+```
+
+| Color | Light | Dark |
+|-------|-------|------|
+| Blue 1 (Primary) | `#192f5e` | `#adbfff` |
+| Blue 2 | `#3445b0` | `#8795eb` |
+| Blue 3 (Secondary) | `#6e79dd` | `#6e79dd` |
+| Blue 4 | `#8795eb` | `#3445b0` |
+| Blue 5 | `#adbfff` | `#192f5e` |
+| Blue 6 (Background) | `#c2d8ff` | `#0d1a3a` |
+| Yellow | `#ecd731` | `#f5e454` |
+| Purple | `#9b5093` | `#c278b9` |
+| Green | `#89aa42` | `#a8c96a` |
+| Orange | `#ec8e46` | `#f5a76a` |
+| Red | `#ec6448` | `#f58070` |
+
 ## Raw Asset Links
 
 ### Favicons
