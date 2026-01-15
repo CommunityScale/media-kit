@@ -37,7 +37,7 @@ Assets in PNG and SVG format for [CommunityScale](https://communityscale.com/). 
 
 Brand colors are available as a JavaScript module with both light and dark theme variants, in hex and RGB formats.
 
-**JS:** `https://raw.githubusercontent.com/CommunityScale/media-kit/main/colors/communityscale-brand-colors.js`
+**JS:** `https://raw.githubusercontent.com/CommunityScale/media-kit/refs/heads/main/colors/communityscale-brand-colors.js`
 
 ```js
 import communityscaleColors from './colors/communityscale-brand-colors.js';
