@@ -1,5 +1,15 @@
 // CommunityScale Brand Colors
-// Light and Dark theme variants
+// Light and Dark theme variants.
+//
+// Source of truth: colors/communityscale-style.json
+//   - Light values are the canonical brand colors from that file:
+//       blue1..blue6  -> palettes["6_seq_blue"]
+//       yellow, green, orange, red, purple -> palettes["5_cat_accent"]
+//   - Dark values are media-kit-maintained variants; the upstream brand
+//     JSON does not define a dark theme.
+//
+// Do not hand-edit the light values here. Change them in the brand JSON,
+// then mirror the change into this module.
 
 export const communityscaleColorsLight = {
   blue1Primary: '#192f5e',

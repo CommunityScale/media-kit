@@ -1,0 +1,1175 @@
+{
+  "_meta": {
+    "name": "CommunityScale color scheme",
+    "description": "Authoritative CommunityScale brand colors, palettes, chart tokens, and typography. Published subset of the internal brand source of truth.",
+    "source": "CommunityScale/app :: .agents/skills/brand-guidelines/style.json",
+    "sync": "Regenerate rather than hand-edit: this file is a filtered copy of the upstream style.json. Apply the same exclusions listed below on every sync.",
+    "excluded": [
+      "app_colors.project_overrides — client-project palette overrides",
+      "app_colors.map_metrics — app map-generation color contract",
+      "app_colors.tokens.affordability_pctile, comparison_communities, homepage, internal_dashboard, listings_filter, og, schedule — app-internal UI tokens",
+      "chart_tokens._see_also — internal spec cross-reference"
+    ],
+    "note": "Dark-theme variants are not defined upstream; they are maintained in colors/communityscale-brand-colors.js."
+  },
+  "app_colors": {
+    "description": "Runtime design tokens generated into Python, browser JavaScript, and Tailwind. Do not add app color literals outside this JSON.",
+    "tokens": {
+      "affordability": {
+        "benchmark": "#192f5e",
+        "owner": "#6e79dd",
+        "renter": "#ec8e46"
+      },
+      "brand": {
+        "blue_2": "#3445b0",
+        "blue_3": "#6e79dd",
+        "navy": "#192f5e",
+        "navy_hover": "#142848"
+      },
+      "chart": {
+        "annotation": "#aaaaaa",
+        "axis": "#666666",
+        "background": "#ffffff",
+        "border_dashed": "#b0b0b0",
+        "control_active": "#e8e8e8",
+        "control_border": "#d0d0d0",
+        "control_inactive": "#f8f8f8",
+        "control_surface": "#f5f5f5",
+        "covid_fill": "#888888",
+        "covid_opacity": 0.1,
+        "covid_region": "rgba(0, 0, 0, 0.08)",
+        "divider": "#dddddd",
+        "divider_light": "#eeeeee",
+        "fallback": "#cccccc",
+        "forecast_fill": "#f0f0f0",
+        "gap_affordable": "rgba(200, 200, 200, 0.3)",
+        "gap_unaffordable": "#e8b8b8",
+        "grid": "#e0e0e0",
+        "grid_faint": "#e5e5e5",
+        "grid_zero": "#999999",
+        "text": "#333333",
+        "text_deep": "#222222",
+        "text_heading": "#444444",
+        "text_muted": "#888888",
+        "text_secondary": "#777777",
+        "text_strong": "#1a1a1a",
+        "text_subtle": "#555555",
+        "timeline_active_fill": "#eef1f8",
+        "timeline_inactive_fill": "#d5d5d5",
+        "tooltip_shadow": "rgba(0, 0, 0, 0.15)"
+      },
+      "cost_burden": {
+        "cost_burdened": "#f0b2a2",
+        "no_burden": "#979797",
+        "severely_burdened": "#f95738"
+      },
+      "focus_ring": "#192f5e",
+      "housing_tenure": {
+        "owner": "#192f5e",
+        "renter": "#6e79dd",
+        "vacant": "#ecd731"
+      },
+      "link": {
+        "default": "#3445b0",
+        "hover": "#192f5e"
+      },
+      "map": {
+        "geo_fill": "#9ca3af",
+        "geo_hover": "#6e79dd",
+        "nodata": "#e8dfd0",
+        "selected": "#192f5e",
+        "state_stroke": "#ffffff"
+      },
+      "sectors": {
+        "blue_collar": "#3445b0",
+        "eds_meds_public": "#ec8e46",
+        "knowledge": "#89aa42",
+        "service": "#ecd731"
+      },
+      "semantic": {
+        "highlight": "#ecd731",
+        "negative": "#ec6448",
+        "negative_strong": "#c0392b",
+        "neutral": "#e0e0e0",
+        "positive": "#89aa42"
+      },
+      "theme_color": "#192f5e",
+      "ui": {
+        "background": "#ffffff",
+        "border": "#e5e7eb",
+        "border_strong": "#9ca3af",
+        "highlight_background": "#ecf0ff",
+        "surface_muted": "#f3f4f6",
+        "surface_subtle": "#f9fafb",
+        "text": "#111827",
+        "text_disabled": "#9ca3af",
+        "text_muted": "#4b5563",
+        "text_subtle": "#6b7280"
+      }
+    }
+  },
+  "chart_color_sequence": [
+    "#192f5e",
+    "#6e79dd",
+    "#89aa42",
+    "#ecd731",
+    "#ec8e46",
+    "#9b5093"
+  ],
+  "chart_tokens": {
+    "axis": {
+      "grid_axis": "y",
+      "hide_category_ticks": true,
+      "hide_domain": true,
+      "show_zero_line": true
+    },
+    "description": "Cross-framework chart styling shared by the matplotlib adapter, generated D3/HTML theme, and in-app charts. Data colors live in palettes and chart_color_sequence; this block defines typography, hierarchy, axes, spacing, line weights, and number formatting.",
+    "font_family": "Roboto, Arial, sans-serif",
+    "line": {
+      "hover_dim_opacity": 0.15,
+      "width": 2,
+      "width_emphasis": 2.5,
+      "width_grid": 1,
+      "width_grid_zero": 1.5
+    },
+    "number_formats": {
+      "count": "abs>=1e6 -> comma .1f of millions + 'M' (strip .0); abs>=1e3 -> comma of thousands + 'K'; else comma integer. Sign preserved.",
+      "currency": "0 -> $0; abs>=1e6 -> $ + (whole? .0 : .1) millions + M; else $ + round(v/1000) + K.",
+      "percent": "abs(v)<1 treated as a fraction (x100); 1 decimal; strip trailing .0; append %."
+    },
+    "semantic_colors": {
+      "focus": "#192f5e",
+      "highlight": "#ecd731",
+      "negative": "#ec6448",
+      "neutral": "#e0e0e0",
+      "positive": "#89aa42"
+    },
+    "semantic_palettes": {
+      "cost_burden": {
+        "none": "#e0e0e0",
+        "burdened": "#f0b2a2",
+        "moderate": "#ec4c47",
+        "severe": "#f95738"
+      },
+      "housing_tenure": {
+        "owner": "#192f5e",
+        "renter": "#6e79dd",
+        "vacant": "#ecd731"
+      },
+      "income_alignment": {
+        "green": "#89aa42",
+        "yellow": "#ecd731",
+        "orange": "#ec8e46",
+        "purple": "#9b5093"
+      }
+    },
+    "spacing": {
+      "char_width": 7,
+      "label_tick_gap": 4,
+      "leader_gap": 12,
+      "leader_label_gap": 3,
+      "tick_length": 6
+    },
+    "structural_colors": {
+      "annotation": "#aaaaaa",
+      "axis": "#666666",
+      "background": "#ffffff",
+      "covid_fill": "#888888",
+      "covid_opacity": 0.1,
+      "fallback": "#cccccc",
+      "focus": "#192f5e",
+      "forecast_fill": "#f0f0f0",
+      "grid": "#e0e0e0",
+      "grid_zero": "#999999",
+      "text": "#333333",
+      "text_muted": "#888888"
+    },
+    "text_roles": {
+      "_comment": "rel_size is a multiplier from title size; px_at_600w is the rendered size at a 600px chart width.",
+      "annotation": {
+        "color": "#aaaaaa",
+        "px_at_600w": 10,
+        "rel_size": 0.56,
+        "weight": 400
+      },
+      "axis_tick": {
+        "color": "#666666",
+        "px_at_600w": 11,
+        "rel_size": 0.61,
+        "weight": 400
+      },
+      "axis_title": {
+        "color": "#333333",
+        "px_at_600w": 12,
+        "rel_size": 0.67,
+        "weight": 400
+      },
+      "data_label": {
+        "color": "#333333",
+        "px_at_600w": 10,
+        "rel_size": 0.56,
+        "weight": 500
+      },
+      "legend": {
+        "color": "#333333",
+        "px_at_600w": 11,
+        "rel_size": 0.61,
+        "weight": 400
+      },
+      "source": {
+        "color": "#888888",
+        "px_at_600w": 11,
+        "rel_size": 0.61,
+        "weight": 400
+      },
+      "subtitle": {
+        "color": "#888888",
+        "px_at_600w": 14,
+        "rel_size": 0.78,
+        "weight": 400
+      },
+      "title": {
+        "color": "#000000",
+        "px_at_600w": 18,
+        "rel_size": 1.0,
+        "weight": 500
+      }
+    }
+  },
+  "instagram": {
+    "background": "#ffffff",
+    "brand_mark_height_px": 30,
+    "dimensions": {
+      "aspect_ratio": "4:5",
+      "export_scale": 2,
+      "height_px": 1350,
+      "width_px": 1080
+    },
+    "layout_zones": {
+      "bottom_margin": {
+        "height_px": 76,
+        "y_bot": 1350,
+        "y_top": 1274
+      },
+      "callouts": {
+        "height_px": 282,
+        "y_bot": 1138,
+        "y_top": 856
+      },
+      "footer": {
+        "height_px": 52,
+        "y_bot": 1274,
+        "y_top": 1222
+      },
+      "headline": {
+        "height_px": 120,
+        "y_bot": 200,
+        "y_top": 80
+      },
+      "legend": {
+        "height_px": 74,
+        "y_bot": 1214,
+        "y_top": 1140
+      },
+      "map_conus": {
+        "height_px": 538,
+        "y_bot": 848,
+        "y_top": 310
+      },
+      "subtitle": {
+        "height_px": 78,
+        "y_bot": 286,
+        "y_top": 208
+      },
+      "top_margin": {
+        "height_px": 80,
+        "y_bot": 80,
+        "y_top": 0
+      }
+    },
+    "margins_px": 80,
+    "text_sizes": {
+      "callout_city": {
+        "size_px": 28,
+        "weight": 500
+      },
+      "callout_detail": {
+        "size_px": 17,
+        "weight": 400
+      },
+      "callout_stat": {
+        "size_px": "36-40",
+        "weight": 900
+      },
+      "headline": {
+        "size_px": 44,
+        "weight": 900
+      },
+      "legend_labels": {
+        "size_px": 28,
+        "weight": 500
+      },
+      "source_text": {
+        "size_px": 16,
+        "weight": 400
+      },
+      "subtitle": {
+        "size_px": 28,
+        "weight": 400
+      }
+    }
+  },
+  "palettes": {
+    "20_seq_contrast": {
+      "colors": [
+        {
+          "hex": "#89aa42",
+          "name": "step_01"
+        },
+        {
+          "hex": "#a3b63f",
+          "name": "step_02"
+        },
+        {
+          "hex": "#bdc23b",
+          "name": "step_03"
+        },
+        {
+          "hex": "#d7ce36",
+          "name": "step_04"
+        },
+        {
+          "hex": "#ecd333",
+          "name": "step_05"
+        },
+        {
+          "hex": "#edc13a",
+          "name": "step_06"
+        },
+        {
+          "hex": "#edae40",
+          "name": "step_07"
+        },
+        {
+          "hex": "#ed9a44",
+          "name": "step_08"
+        },
+        {
+          "hex": "#ec8a46",
+          "name": "step_09"
+        },
+        {
+          "hex": "#ec7f47",
+          "name": "step_10"
+        },
+        {
+          "hex": "#ec7447",
+          "name": "step_11"
+        },
+        {
+          "hex": "#ec6948",
+          "name": "step_12"
+        },
+        {
+          "hex": "#e16055",
+          "name": "step_13"
+        },
+        {
+          "hex": "#cd5b69",
+          "name": "step_14"
+        },
+        {
+          "hex": "#b8567c",
+          "name": "step_15"
+        },
+        {
+          "hex": "#a0518f",
+          "name": "step_16"
+        },
+        {
+          "hex": "#824988",
+          "name": "step_17"
+        },
+        {
+          "hex": "#624179",
+          "name": "step_18"
+        },
+        {
+          "hex": "#41386c",
+          "name": "step_19"
+        },
+        {
+          "hex": "#192f5e",
+          "name": "step_20"
+        }
+      ],
+      "description": "Homepage income-needed-to-afford sequential ramp, low to high."
+    },
+    "3_div_penalty_exempt_bonus": {
+      "colors": [
+        {
+          "hex": "#c0392b",
+          "name": "penalty",
+          "usage": "Build Now Act penalty"
+        },
+        {
+          "hex": "#89aa42",
+          "name": "exempt",
+          "usage": "Build Now Act exemption"
+        },
+        {
+          "hex": "#2c5f9e",
+          "name": "bonus",
+          "usage": "Build Now Act bonus"
+        }
+      ],
+      "description": "Three-class categorical map scale for Build Now Act penalty, exempt, and bonus outcomes."
+    },
+    "4_div_red_blue": {
+      "colors": [
+        {
+          "hex": "#d94f4f",
+          "name": "decline_strong",
+          "usage": "Strong decline"
+        },
+        {
+          "hex": "#e8b8b8",
+          "name": "decline_light",
+          "usage": "Light decline"
+        },
+        {
+          "hex": "#c8dff4",
+          "name": "growth_light",
+          "usage": "Light growth"
+        },
+        {
+          "hex": "#192f5e",
+          "name": "growth_strong",
+          "usage": "Strong growth"
+        }
+      ],
+      "description": "Diverging scale for change maps — decline=red, growth=blue",
+      "missing": "#e8dfd0"
+    },
+    "5_cat_accent": {
+      "colors": [
+        {
+          "hex": "#ecd731",
+          "name": "yellow",
+          "rgb": [
+            236,
+            215,
+            49
+          ],
+          "usage": "Highlighting key terms in graphics, callouts"
+        },
+        {
+          "hex": "#89aa42",
+          "name": "green",
+          "rgb": [
+            137,
+            170,
+            66
+          ],
+          "usage": "Success indicators, positive data"
+        },
+        {
+          "hex": "#ec8e46",
+          "name": "orange",
+          "rgb": [
+            236,
+            142,
+            70
+          ],
+          "usage": "Warnings, emphasis in charts"
+        },
+        {
+          "hex": "#ec6448",
+          "name": "red",
+          "rgb": [
+            236,
+            100,
+            72
+          ],
+          "usage": "Alerts, critical data points"
+        },
+        {
+          "hex": "#9b5093",
+          "name": "purple",
+          "rgb": [
+            155,
+            80,
+            147
+          ],
+          "usage": "Secondary accent in charts"
+        }
+      ],
+      "description": "Categorical accent colors for charts and callouts"
+    },
+    "5_seq_neutral": {
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "black",
+          "usage": "Primary body text"
+        },
+        {
+          "hex": "#333333",
+          "name": "dark_gray",
+          "usage": "Secondary text"
+        },
+        {
+          "hex": "#666666",
+          "name": "medium_gray",
+          "usage": "Captions, metadata"
+        },
+        {
+          "hex": "#e0e0e0",
+          "name": "light_gray",
+          "usage": "Table borders, dividers"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "white",
+          "usage": "Page backgrounds"
+        }
+      ],
+      "description": "Neutral/grayscale utility colors"
+    },
+    "6_div_red_blue": {
+      "colors": [
+        {
+          "hex": "#c0392b",
+          "name": "negative_strong",
+          "usage": "Strong negative value"
+        },
+        {
+          "hex": "#e0805e",
+          "name": "negative_moderate",
+          "usage": "Moderate negative value"
+        },
+        {
+          "hex": "#f4cabb",
+          "name": "negative_light",
+          "usage": "Light negative value"
+        },
+        {
+          "hex": "#c8dff4",
+          "name": "positive_light",
+          "usage": "Light positive value"
+        },
+        {
+          "hex": "#6e8fd0",
+          "name": "positive_moderate",
+          "usage": "Moderate positive value"
+        },
+        {
+          "hex": "#192f5e",
+          "name": "positive_strong",
+          "usage": "Strong positive value"
+        }
+      ],
+      "description": "Six-stop cartographic diverging scale for negative-to-positive map metrics."
+    },
+    "6_seq_blue": {
+      "colors": [
+        {
+          "hex": "#192f5e",
+          "name": "blue_1",
+          "rgb": [
+            25,
+            47,
+            94
+          ],
+          "usage": "Primary brand color, document title, key headers"
+        },
+        {
+          "hex": "#3445b0",
+          "name": "blue_2",
+          "rgb": [
+            52,
+            69,
+            176
+          ],
+          "usage": "Secondary headers, buttons"
+        },
+        {
+          "hex": "#6e79dd",
+          "name": "blue_3",
+          "rgb": [
+            110,
+            121,
+            221
+          ],
+          "usage": "Links, interactive elements"
+        },
+        {
+          "hex": "#8795eb",
+          "name": "blue_4",
+          "rgb": [
+            135,
+            149,
+            235
+          ],
+          "usage": "Hover states, highlights"
+        },
+        {
+          "hex": "#adbfff",
+          "name": "blue_5",
+          "rgb": [
+            173,
+            191,
+            255
+          ],
+          "usage": "Light accents"
+        },
+        {
+          "hex": "#c2d8ff",
+          "name": "blue_6",
+          "rgb": [
+            194,
+            216,
+            255
+          ],
+          "usage": "Light backgrounds, cards"
+        }
+      ],
+      "description": "Primary brand blues, dark to light"
+    },
+    "6_seq_blue_density": {
+      "colors": [
+        {
+          "hex": "#eaf0fb",
+          "name": "low",
+          "usage": "Low density"
+        },
+        {
+          "hex": "#c2d8ff",
+          "name": "low_mid",
+          "usage": "Low-mid density"
+        },
+        {
+          "hex": "#adbfff",
+          "name": "mid",
+          "usage": "Mid density"
+        },
+        {
+          "hex": "#8795eb",
+          "name": "mid_high",
+          "usage": "Mid-high density"
+        },
+        {
+          "hex": "#3445b0",
+          "name": "high",
+          "usage": "High density"
+        },
+        {
+          "hex": "#192f5e",
+          "name": "very_high",
+          "usage": "Very high density"
+        }
+      ],
+      "description": "Six-stop cartographic density scale, light to dark blue."
+    },
+    "6_seq_contrast": {
+      "colors": [
+        {
+          "hex": "#89aa42",
+          "name": "step_1",
+          "usage": "Lowest bin"
+        },
+        {
+          "hex": "#ecd731",
+          "name": "step_2",
+          "usage": "Low-mid bin"
+        },
+        {
+          "hex": "#ec8e46",
+          "name": "step_3",
+          "usage": "Mid bin"
+        },
+        {
+          "hex": "#ec6448",
+          "name": "step_4",
+          "usage": "Mid-high bin"
+        },
+        {
+          "hex": "#9b5093",
+          "name": "step_5",
+          "usage": "High bin"
+        },
+        {
+          "hex": "#192f5e",
+          "name": "step_6",
+          "usage": "Highest bin"
+        }
+      ],
+      "description": "High-contrast sequential ramp from green through yellow, orange, red, and purple to navy.",
+      "missing": "#e8dfd0"
+    },
+    "6_seq_cost": {
+      "colors": [
+        {
+          "hex": "#192f5e",
+          "name": "low",
+          "usage": "Low cost burden"
+        },
+        {
+          "hex": "#6e79dd",
+          "name": "low_mid",
+          "usage": "Low-mid cost burden"
+        },
+        {
+          "hex": "#c8dff4",
+          "name": "mid",
+          "usage": "Mid cost burden"
+        },
+        {
+          "hex": "#f4cabb",
+          "name": "mid_high",
+          "usage": "Mid-high cost burden"
+        },
+        {
+          "hex": "#e0805e",
+          "name": "high",
+          "usage": "High cost burden"
+        },
+        {
+          "hex": "#c0392b",
+          "name": "very_high",
+          "usage": "Very high cost burden"
+        }
+      ],
+      "description": "Six-stop cartographic cost scale, low-to-high burden."
+    },
+    "6_seq_green_transit": {
+      "colors": [
+        {
+          "hex": "#eef3e2",
+          "name": "low",
+          "usage": "Low transit access"
+        },
+        {
+          "hex": "#d4e0b0",
+          "name": "low_mid",
+          "usage": "Low-mid transit access"
+        },
+        {
+          "hex": "#b8cd7e",
+          "name": "mid",
+          "usage": "Mid transit access"
+        },
+        {
+          "hex": "#9fbb59",
+          "name": "mid_high",
+          "usage": "Mid-high transit access"
+        },
+        {
+          "hex": "#89aa42",
+          "name": "high",
+          "usage": "High transit access"
+        },
+        {
+          "hex": "#5e7a2c",
+          "name": "very_high",
+          "usage": "Very high transit access"
+        }
+      ],
+      "description": "Six-stop cartographic transit scale, light to dark green."
+    },
+    "6_seq_income": {
+      "colors": [
+        {
+          "domain_label": "$20k",
+          "hex": "#89aa42",
+          "name": "step_1"
+        },
+        {
+          "domain_label": "$40k",
+          "hex": "#ecd731",
+          "name": "step_2"
+        },
+        {
+          "domain_label": "$60k",
+          "hex": "#ec8e46",
+          "name": "step_3"
+        },
+        {
+          "domain_label": "$90k",
+          "hex": "#ec6448",
+          "name": "step_4"
+        },
+        {
+          "domain_label": "$150k",
+          "hex": "#9b5093",
+          "name": "step_5"
+        },
+        {
+          "domain_label": "$250k+",
+          "hex": "#192f5e",
+          "name": "step_6"
+        }
+      ],
+      "description": "Sequential scale for current-income affordability maps (low=green, high=navy)",
+      "missing": "#e8dfd0"
+    },
+    "6_seq_orange_design": {
+      "colors": [
+        {
+          "hex": "#fdeee2",
+          "name": "low",
+          "usage": "Low design score"
+        },
+        {
+          "hex": "#f9d2b0",
+          "name": "low_mid",
+          "usage": "Low-mid design score"
+        },
+        {
+          "hex": "#f4b27d",
+          "name": "mid",
+          "usage": "Mid design score"
+        },
+        {
+          "hex": "#ef9a55",
+          "name": "mid_high",
+          "usage": "Mid-high design score"
+        },
+        {
+          "hex": "#ec8e46",
+          "name": "high",
+          "usage": "High design score"
+        },
+        {
+          "hex": "#c25e1e",
+          "name": "very_high",
+          "usage": "Very high design score"
+        }
+      ],
+      "description": "Six-stop cartographic design scale, light to dark orange."
+    },
+    "6_seq_purple_diversity": {
+      "colors": [
+        {
+          "hex": "#f3e9f2",
+          "name": "low",
+          "usage": "Low diversity"
+        },
+        {
+          "hex": "#dcc0d8",
+          "name": "low_mid",
+          "usage": "Low-mid diversity"
+        },
+        {
+          "hex": "#c498bd",
+          "name": "mid",
+          "usage": "Mid diversity"
+        },
+        {
+          "hex": "#ab6fa2",
+          "name": "mid_high",
+          "usage": "Mid-high diversity"
+        },
+        {
+          "hex": "#9b5093",
+          "name": "high",
+          "usage": "High diversity"
+        },
+        {
+          "hex": "#6e2f68",
+          "name": "very_high",
+          "usage": "Very high diversity"
+        }
+      ],
+      "description": "Six-stop cartographic diversity scale, light to dark purple."
+    },
+    "ami_blue_6": {
+      "colors": [
+        {
+          "hex": "#192f5e",
+          "name": "step_1"
+        },
+        {
+          "hex": "#4956c5",
+          "name": "step_2"
+        },
+        {
+          "hex": "#6875e7",
+          "name": "step_3"
+        },
+        {
+          "hex": "#8795f3",
+          "name": "step_4"
+        },
+        {
+          "hex": "#9bb1ff",
+          "name": "step_5"
+        },
+        {
+          "hex": "#bfd7ff",
+          "name": "step_6"
+        }
+      ],
+      "description": "Six-stop income/AMI blue ramp used by income-distribution cards, dark to light."
+    },
+    "blue_sequential_6": {
+      "colors": {
+        "prussian_blue": {
+          "hex": "#091a3f",
+          "rgb": [
+            9,
+            26,
+            63
+          ]
+        },
+        "ocean_twilight": {
+          "hex": "#3445b0",
+          "rgb": [
+            52,
+            69,
+            176
+          ]
+        },
+        "glaucous": {
+          "hex": "#6e79d9",
+          "rgb": [
+            110,
+            121,
+            217
+          ]
+        },
+        "wisteria_blue": {
+          "hex": "#8e9cec",
+          "rgb": [
+            142,
+            156,
+            236
+          ]
+        },
+        "periwinkle": {
+          "hex": "#adbfff",
+          "rgb": [
+            173,
+            191,
+            255
+          ]
+        },
+        "lavender": {
+          "hex": "#e4e0fd",
+          "rgb": [
+            228,
+            224,
+            253
+          ]
+        }
+      },
+      "description": "Sequential blue scale, dark to light, with a Prussian Blue anchor.",
+      "palette_family": "blue",
+      "steps": 6,
+      "type": "sequential"
+    },
+    "comparison_16": {
+      "colors": [
+        {
+          "hex": "#3445b0",
+          "name": "primary"
+        },
+        {
+          "hex": "#ec8e46",
+          "name": "orange"
+        },
+        {
+          "hex": "#ecd731",
+          "name": "yellow"
+        },
+        {
+          "hex": "#89aa42",
+          "name": "green"
+        },
+        {
+          "hex": "#9b5093",
+          "name": "purple"
+        },
+        {
+          "hex": "#8795eb",
+          "name": "periwinkle"
+        },
+        {
+          "hex": "#192f5e",
+          "name": "navy"
+        },
+        {
+          "hex": "#666666",
+          "name": "medium_gray"
+        },
+        {
+          "hex": "#ec6448",
+          "name": "red"
+        },
+        {
+          "hex": "#d94f4f",
+          "name": "decline_strong"
+        },
+        {
+          "hex": "#6e79dd",
+          "name": "blue_3"
+        },
+        {
+          "hex": "#c8dff4",
+          "name": "growth_light"
+        },
+        {
+          "hex": "#adbfff",
+          "name": "blue_5"
+        },
+        {
+          "hex": "#e8b8b8",
+          "name": "decline_light"
+        },
+        {
+          "hex": "#333333",
+          "name": "dark_gray"
+        },
+        {
+          "hex": "#c2d8ff",
+          "name": "blue_6"
+        }
+      ],
+      "description": "Canonical ordered palette for comparison-mode series. The first entry is the subject geography; all comparison charts use this exact order."
+    },
+    "suit_viridis_20": {
+      "colors": [
+        {
+          "hex": "#d4ede2",
+          "name": "step_01"
+        },
+        {
+          "hex": "#cde9dd",
+          "name": "step_02"
+        },
+        {
+          "hex": "#bfe5d3",
+          "name": "step_03"
+        },
+        {
+          "hex": "#a9e0c8",
+          "name": "step_04"
+        },
+        {
+          "hex": "#8fdabd",
+          "name": "step_05"
+        },
+        {
+          "hex": "#6fceb0",
+          "name": "step_06"
+        },
+        {
+          "hex": "#4fc0a3",
+          "name": "step_07"
+        },
+        {
+          "hex": "#36b099",
+          "name": "step_08"
+        },
+        {
+          "hex": "#33a59f",
+          "name": "step_09"
+        },
+        {
+          "hex": "#3596aa",
+          "name": "step_10"
+        },
+        {
+          "hex": "#3187b4",
+          "name": "step_11"
+        },
+        {
+          "hex": "#3375b2",
+          "name": "step_12"
+        },
+        {
+          "hex": "#39619f",
+          "name": "step_13"
+        },
+        {
+          "hex": "#3b4d96",
+          "name": "step_14"
+        },
+        {
+          "hex": "#3a3a89",
+          "name": "step_15"
+        },
+        {
+          "hex": "#312b76",
+          "name": "step_16"
+        },
+        {
+          "hex": "#272261",
+          "name": "step_17"
+        },
+        {
+          "hex": "#1e1a4d",
+          "name": "step_18"
+        },
+        {
+          "hex": "#160f3a",
+          "name": "step_19"
+        },
+        {
+          "hex": "#120a2c",
+          "name": "step_20"
+        }
+      ],
+      "description": "Housing-ready cartographic viridis ramp; intentionally non-brand and pixel-identical to the baked raster."
+    }
+  },
+  "typography": {
+    "css_variables": {
+      "--cs-font-condensed": "'Roboto Condensed', Arial Narrow, sans-serif",
+      "--cs-font-mono": "'Roboto Mono', Consolas, monospace",
+      "--cs-font-primary": "'Roboto', Arial, sans-serif"
+    },
+    "fonts": {
+      "condensed": "Roboto Condensed",
+      "mono": "Roboto Mono",
+      "primary": "Roboto"
+    },
+    "scales": {
+      "body": {
+        "font": "Roboto",
+        "size_pt": "11-12",
+        "weight": 400
+      },
+      "caption": {
+        "font": "Roboto",
+        "size_pt": "9-10",
+        "weight": 400
+      },
+      "code": {
+        "font": "Roboto Mono",
+        "size_pt": "10-11",
+        "weight": 400
+      },
+      "document_subtitle": {
+        "font": "Roboto",
+        "size_pt": "24-32",
+        "weight": 300
+      },
+      "document_title": {
+        "font": "Roboto",
+        "size_pt": "36-48",
+        "weight": 700
+      },
+      "section_header": {
+        "font": "Roboto Condensed",
+        "size_pt": "24-28",
+        "weight": 300
+      },
+      "subsection_header": {
+        "font": "Roboto",
+        "size_pt": "14-16",
+        "weight": 700
+      }
+    }
+  }
+}
